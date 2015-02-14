@@ -1,10 +1,45 @@
+@font-face {
+	font-family: jquerysf;
+	src: url("../fonts/CrimesTimesSix.ttf");
+
+}
+
+.clearfix {
+	clear: both;
+}
+
 body {
 	background-color: #000;
 }
 
+h1 {
+	
+	font-family: jquerysf;
+	color: #fff;
+	font-size: 5em;
+	margin-top:70px;
+	margin-bottom: 0;
+	margin-left: 100px;
+	
+}
+
+#instructions {
+	position: absolute;
+	font-family: jquerysf;
+	color: #fff;
+	left: 730px;
+	top: 50px;
+	font-size: 1.5em;
+
+}
+
+#instructions > ul > li {
+	margin: 10px 0;
+}
+
 .container {
 	background-color: #fff;
-	margin-top: 110px;
+	margin-top: 40px;
   	padding-left: 100px;
   	min-width: 1200px;
   	height: 500px;
@@ -14,16 +49,16 @@ body {
 	float: left;
 }
 
-#ryu-ready, #ryu-still, #ryu-throwing {
+#ryu-ready, #ryu-still, #ryu-throwing, #ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-#ryu-ready, #ryu-still, #ryu-throwing, #hadouken {
+#ryu-ready, #ryu-still, #ryu-throwing, #hadouken, #ryu-cool {
 	background-repeat: no-repeat;
 }
 
-#ryu-ready, #ryu-throwing {
+#ryu-ready, #ryu-throwing, #ryu-cool {
 	display: none;
 }
 
@@ -42,8 +77,9 @@ body {
 	
 }
 
-#ryu-ready, #ryu-still, #ryu-throwing, #hadouken {
-	background-repeat: no-repeat;
+#ryu-cool {
+	background-image: url("../images/ryu-cool.gif");
+	
 }
 
 #hadouken {
