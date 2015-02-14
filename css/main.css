@@ -10,12 +10,6 @@ body {
   	height: 500px;
 }
 
-* {
-  outline: red 1px solid;
-}
-
-
-
 #ryu {
 	float: left;
 }
@@ -56,7 +50,7 @@ body {
 	background-image: url("../images/hadouken.gif");
 	width: 156px;
 	height: 90px;
-	/*display: none;*/
+	display: none;
 	position: relative;
 	top: 167px;
 	left: -212px;
